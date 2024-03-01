@@ -4,10 +4,10 @@ import * as S from "./style";
 const Navbar = () => {
   return (
     <S.Container>
-      <span>home</span>
-      <span>location</span>
-      <span>like</span>
-      <span>profile</span>
+      <span>Home</span>
+      <span>Location</span>
+      <span>Like</span>
+      <span>Profile</span>
     </S.Container>
   );
 };

@@ -10,7 +10,7 @@ export const color = {
   smalltext: "#A6A6A6",
 
   // opacity: 70%
-  // radius: 10px
+  // radius: 5px
   // box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   // 수평 수직 흐림정도 rgba(검은색(0,0,0), 50%의 투명도)
   // import { IoIosArrowBack } from "react-icons/io"; 뒤로가기

@@ -20,11 +20,11 @@ export const ContentWrapper = styled.div`
 
 export const HeaderText = styled.h1`
   padding: 10px 50px;
-  font-size: 30px;
+  font-size: 25px;
   color: ${CS.color.primary};
   background-color: white;
   opacity: 70%;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 `;
 

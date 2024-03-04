@@ -7,7 +7,6 @@ const RootContainer = () => {
   return (
     <div>
       <Outlet />
-      <Navbar />
     </div>
   );
 };

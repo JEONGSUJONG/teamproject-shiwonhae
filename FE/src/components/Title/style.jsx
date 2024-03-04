@@ -3,16 +3,17 @@ import * as CS from "../../style/CommonStyles";
 
 export const Container = styled.div`
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%;
   display: flex;
   position: relative;
-  height: 50px;
+  height: 30px;
 `;
 
 export const ReactIcons = styled.button`
   position: absolute;
   left: 8%;
-  top: 50%;
+  top: 85%;
   transform: translateY(-50%);
   font-size: 30px;
   background: none;

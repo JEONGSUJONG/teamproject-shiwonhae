@@ -2,8 +2,8 @@ import styled from "styled-components";
 import * as CS from "../../style/CommonStyles";
 
 export const Container = styled.div`
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 40px;
   width: 100%;
   display: flex;
   position: relative;

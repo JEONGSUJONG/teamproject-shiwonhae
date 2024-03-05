@@ -1,10 +1,10 @@
 import React from "react";
 import * as S from "./style";
 
-const NextBtn = ({ props }) => {
+const NextBtn = ({ onClick, label }) => {
   return (
-    <S.Container>
-      <h2>{props}</h2>
+    <S.Container onClick={onClick}>
+      <h2>{label}</h2>
     </S.Container>
   );
 };

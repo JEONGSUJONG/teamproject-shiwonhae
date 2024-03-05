@@ -1,7 +1,6 @@
 import React from "react";
 import * as S from "./style";
 import Title from "../../../components/Title";
-import NextBtn from "../../../components/NextBtn";
 
 const Role = () => {
   return (
@@ -38,7 +37,6 @@ const Role = () => {
           </S.Text>
         </S.Choose>
       </S.Container>
-      <NextBtn props={"다음"} />
     </>
   );
 };

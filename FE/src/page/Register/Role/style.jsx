@@ -12,7 +12,7 @@ export const Follow = styled.div`
 `;
 
 export const Choose = styled.label`
-  margin: 20px auto;
+  margin: 10px auto;
   display: flex;
   align-items: center;
   border: 2px solid black;
@@ -23,11 +23,11 @@ export const Choose = styled.label`
 `;
 
 export const Person = styled.div`
-  margin: 0 10px;
+  margin: 0 20px;
 `;
 
 export const Text = styled.div`
-  margin: 10px 10px;
+  margin: 10px 5px;
   text-align: start;
   p {
     margin-top: 3px;

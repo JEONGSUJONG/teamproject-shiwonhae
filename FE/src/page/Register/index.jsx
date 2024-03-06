@@ -1,28 +1,25 @@
 import React, { useState } from "react";
-import Role from "./Role";
-import Detail from "./Detail";
-import NextBtn from "../../components/NextBtn";
+import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
+import Header from "../../components/layout/Header";
+import { useForm } from "react-hook-form";
 
 const Register = () => {
-  const [next, setNext] = useState(false);
-
-  const nextPage = () => {
-    setNext(true);
-  };
+  const navigate = useNavigate();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({ mode: "onChange" });
 
   return (
     <>
-      {!next ? (
-        <>
-          <Role />
-          <NextBtn onClick={nextPage} label="다음" />
-        </>
-      ) : (
-        <>
-          <Detail />
-          <NextBtn onClick={nextPage} label="시워언해 회원가입" />
-        </>
-      )}
+      <Header
+        typeLeft={"BACK"}
+        typeCenter={"TEXT"}
+        textCenter={"회원가입"}
+        leftOnClickEvent={() => navigate(-1)}
+      />
     </>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { ROUTER_LINK } from "../../router/routes";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/layout/Navbar";
 
 const RootContainer = () => {
   return (

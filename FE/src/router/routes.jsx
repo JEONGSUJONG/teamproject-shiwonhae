@@ -4,11 +4,13 @@ import RootContainer from "../page/RootContainer/RootContainer";
 import Landing from "../page/Landing";
 import Home from "../page/Home";
 import Register from "../page/Register";
+import Mypage from "../page/Mypage";
 
 export const ROUTER_LINK = {
   LANDING: { path: "/", link: "/" },
   HOME: { path: "/home", link: "/home" },
   REGISTER: { path: "register", link: "/register" },
+  MYPAGE: { path: "mypage", link: "/mypage/" },
 };
 
 const router = createBrowserRouter([
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: ROUTER_LINK.REGISTER.path,
         element: <Register />,
+      },
+      {
+        path: ROUTER_LINK.MYPAGE.path,
+        element: <Mypage />,
       },
     ],
   },

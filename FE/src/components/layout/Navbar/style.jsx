@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import * as CS from "../../style/CommonStyles";
+import * as CS from "../../../style/CommonStyles";
 
 export const Container = styled.div`
   display: flex;

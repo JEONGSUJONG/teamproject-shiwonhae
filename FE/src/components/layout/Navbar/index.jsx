@@ -1,14 +1,14 @@
 import React from "react";
-import * as S from "./style";
+import * as ST from "./style";
 
 const Navbar = () => {
   return (
-    <S.Container>
+    <ST.Container>
       <span>Home</span>
       <span>Location</span>
       <span>Like</span>
       <span>Profile</span>
-    </S.Container>
+    </ST.Container>
   );
 };
 

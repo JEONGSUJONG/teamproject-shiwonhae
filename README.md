@@ -30,24 +30,6 @@
 
 ## 🔨 주요 기술
 
-**Frontend**
-React / Vite / Tailwind / Axios
-
-**Backend**
-Node.js / Express / MongoDB / Multer /
-
-**Frontend - React 18.2.0**
-
-- 동적인 사용자 인터페이스를 위해 React를 사용.
-
-**Backend - Node.js, Express.js**
-
-- Node.js 및 Express.js를 활용한 RESTful API 개발.
-
-**Database - MongoDB**
-
-- MongoDB를 사용하여 유연한 데이터 스토리지와 관리 기능 제공.
-
 ## 📝 기획
 
 [페르소나]

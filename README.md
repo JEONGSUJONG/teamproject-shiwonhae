@@ -1,6 +1,6 @@
 # 시워언해
 
-[LOGO]
+![icon](https://github.com/Jng-su/Jng-su/assets/168960634/f6e9c6e5-2efa-4ca9-9316-5cf95db9322a)
 
 ## 👨‍💻 팀원 소개
 
